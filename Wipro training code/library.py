@@ -67,10 +67,10 @@ while True:
     print("2. Remove book")
     print("3. Search for a book")
     print("4. Show all books")
-    print("5. Exit")
-    print("6. Update book details")
+    print("5. Update book details")
+    print("6. Exit")
 
-    choice = input("Choose an option (1-5): ")
+    choice = input("Choose an option (1-6): ")
 
     if choice == "1":
         add_book()
@@ -80,10 +80,10 @@ while True:
         search_book()
     elif choice == "4":
         show_books()
-    elif choice == "6":
+    elif choice == "5":
         update_book()
     
-    elif choice == "5":
+    elif choice == "6":
         print("Thank you for using the Library System ")
         break
     else:
